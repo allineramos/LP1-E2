@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="449.0" style="-fx-background-color: pink;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.TelaListaGatosController">
+   <children>
+      <ListView fx:id="listView" prefHeight="400.0" prefWidth="257.0" style="-fx-background-color: #FF69B410;" />
+      <ImageView fitHeight="146.0" fitWidth="190.0" layoutX="258.0" layoutY="129.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@gato2.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="264.0" layoutY="293.0" mnemonicParsing="false" onAction="#editarGato" prefWidth="80.0" style="-fx-background-color: #343a40; -fx-text-fill: white; -fx-background-radius: 8px;" text="Editar" />
+      <Button layoutX="361.0" layoutY="293.0" mnemonicParsing="false" onAction="#excluirGato" prefWidth="80.0" style="-fx-background-color: #343a40; -fx-text-fill: white; -fx-background-radius: 8px;" text="Excluir" />
+   </children>
+</AnchorPane>

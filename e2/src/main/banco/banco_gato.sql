@@ -1,0 +1,9 @@
+CREATE DATABASE gatosdb;
+
+CREATE TABLE gato (
+    id SERIAL PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL,
+    raca VARCHAR(100) NOT NULL,
+    cor VARCHAR(100) NOT NULL,
+    sexo VARCHAR(100) NOT NULL,
+);
